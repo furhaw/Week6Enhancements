@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sodango</title>
+  <body background="https://wallpapercave.com/wp/wp9716292.jpg">
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    div.container{
+      border: 5px solid #bc2123;
+    }
+    div.left, div.middle, div.right{
+      border: 2px dotted blue;
+      width: 33.3%;
+      float: left;
+    }
+  aside img{
+    width: 100%
+  }
+  aside{
+    overflow: hidden;
+  }
+  aside div{
+    display: inline-block;
+  }
+  nav{
+      background-color: greenyellow;
+    }
+  ul{
+    text-align: center;
+
+  }
+  li{
+    display: inline-block;
+    width: 150px;
+    border: 2px solid white
+    line-height: 3em;
+    font-family: 'Helvetica', 'Gill Sans MT';
+    font-variant: small-caps;;
+  }
+  a{
+    color:aquamarine
+    text-decoration: none;
+    border: 1px solid
+    display: block;
+  }
+    </style>
+</head>
+<body>
+  <div class="container">
+  <header>
+    <h1 style="font-family:verdana;">
+      <font color="#9e081c">
+    <center><h1>SoDango</h1>
+    </font>
+    </center>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Catalog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="hero"><center>
+      <h1 style="font-family:verdana;">
+        <font color="white"><marquee behavior="scroll" direction="right">New Flavors!</marquee>
+          </font>
+    </div></center>
+  </main>
+  <aside>
+    <div class="slideshow">
+    <div class="cycle-slideshow">
+      <img src="https://static.vecteezy.com/system/resources/previews/005/663/913/non_2x/flat-soda-can-vector.jpg" width="100%" height="auto">
+      <img src="sodaa.jpg" width="100%" height="auto">
+ <img src="sodaaa.jpg" width="100%" height="auto"></div>
+    <div class="left"><img src="https://static.vecteezy.com/system/resources/previews/005/663/913/non_2x/flat-soda-can-vector.jpg" width="100%" height="auto"></div>
+    <div class="middle"><img src="sodaa.jpg" width="100%" height="auto"></div>
+    <div class="right"><img src="sodaaa.jpg" width="100%" height="auto"></div>
+    <img src="sodaa.jpg" alt="My Image">
+    </aside>
+    </div>
+    <footer>Soda</footer>
+    <h2>Test</h2>
+    <p>Test.</p>
+  </main>
+  <footer>
+    <p>Test.</p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://malsup.github.io/jquery.cycle2.js"></script>
+</body>
+</html>
